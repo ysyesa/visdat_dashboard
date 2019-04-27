@@ -87,4 +87,11 @@ d3.csv('res/scatterplot.csv', function (data) {
         .attr('dy','.71em')
         .style('text-anchor','end')
         .text('Suicide per 100,000')
+
+    svg.append("text")
+        .attr("x", (w / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("GDP Per Capita and Suicide Rate");
   })

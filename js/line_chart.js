@@ -158,4 +158,5 @@ $(function () {
             data: argentina
         }]
     });
+    removeDemoText("#line_chart");
 });

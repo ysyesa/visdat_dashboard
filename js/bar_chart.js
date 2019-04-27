@@ -41,4 +41,5 @@ $(function () {
             })
         }]
     });
+    removeDemoText("#bar_chart");
 });

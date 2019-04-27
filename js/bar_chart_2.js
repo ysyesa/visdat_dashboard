@@ -37,4 +37,5 @@ $(function () {
             })
         }]
     });
+    removeDemoText("#bar_chart_2");
 });
